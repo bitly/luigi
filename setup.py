@@ -24,7 +24,7 @@ for line in open('README.md'):
         long_description.append(line)
 
 setup(name='luigi',
-      version='1.0',
+      version='1.0.1-patched-bitly',
       description='Workflow mgmgt + task scheduling + dependency resolution',
       long_description=''.join(long_description),
       author='Erik Bernhardsson',
